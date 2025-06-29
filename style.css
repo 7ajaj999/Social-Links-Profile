@@ -185,3 +185,25 @@ body{
 .last_button:hover{
     background-color: rgb(24, 99, 28);
 }
+
+@media (max-width: 768px){
+    .body{
+        margin-top: 0;
+    }
+    .container1{
+        height: 5800px;
+        margin-top: 0;
+    }
+    .total_cards_container{
+        gap:50px;
+        margin: 50px;
+        height: 100%;
+    }
+    .cards_container{
+        flex-direction: column;
+        align-items: center;
+        gap:20px;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+}
