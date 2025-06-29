@@ -1,0 +1,161 @@
+body{
+    background-color:hsl(0, 0%, 12%);
+}
+.container1{
+    position:relative;
+    height: 97.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container2{
+    position: absolute;
+    border: 1px, solid, hsl(0, 0%, 8%);
+    border-radius: 4%;
+    position:relative;
+    height: 480px;
+    width: 290px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 8%);
+    transition: transform 1s,
+                box-shadow 0.8s;
+}
+.container2:hover{
+    transform: translate(-10px, -10px);
+    box-shadow: 10px 10px 3px hsl(0, 0%, 10%);
+}
+#image1{
+    position: absolute;
+    top:8%;
+    width:29%;
+}
+.text1_container{
+    position: absolute;
+    top: 23%;
+    color: rgb(120, 9, 9);
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+#text1{
+    position: absolute;
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 600;
+}
+.text2_container{
+    position: absolute;
+    top: 29.5%;
+    color: rgb(144, 138, 138);
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+#text2{
+    position: absolute;
+    font-family: "Inter";
+    font-size: 12px;
+    font-weight: 400;
+}
+.yt_button{
+    position: absolute;
+    top:40%;
+    border: 1px, solid, hsl(0, 0%, 10%);
+    border-radius: 6%;
+    width: 75%;
+    height: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 10%);
+    color: rgb(118, 112, 112);
+    text-decoration: none;
+    font-family: "Inter";
+    font-size: 15px;
+    font-weight: 300;
+    transition: background-color 0.4s,
+                color 0.4s,
+                font-weight 0.2s;
+}
+.yt_button:hover{
+    background-color: rgb(8, 65, 130);
+    color:rgb(0, 0, 0);
+    font-weight: 600;
+}
+.fb_button{
+    position: absolute;
+    top:53.33%;
+    border: 1px, solid, hsl(0, 0%, 10%);
+    border-radius: 6%;
+    width: 75%;
+    height: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 10%);
+    color: rgb(118, 112, 112);
+    text-decoration: none;
+    font-family: "Inter";
+    font-size: 15px;
+    font-weight: 300;
+    transition: background-color 0.4s,
+                color 0.4s,
+                font-weight 0.2s;
+}
+.fb_button:hover{
+    background-color: rgb(8, 65, 130);
+    color:rgb(0, 0, 0);
+    font-weight: 600;
+}
+.insta_button{
+    position: absolute;
+    top:66.66%;
+    border: 1px, solid, hsl(0, 0%, 10%);
+    border-radius: 6%;
+    width: 75%;
+    height: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 10%);
+    color: rgb(118, 112, 112);
+    text-decoration: none;
+    font-family: "Inter";
+    font-size: 15px;
+    font-weight: 300;
+    transition: background-color 0.4s,
+                color 0.4s,
+                font-weight 0.2s;
+}
+.insta_button:hover{
+    background-color: rgb(8, 65, 130);
+    color:rgb(0, 0, 0);
+    font-weight: 600;
+}
+.github_button{
+    position: absolute;
+    top:80%;
+    border: 1px, solid, hsl(0, 0%, 10%);
+    border-radius: 6%;
+    width: 75%;
+    height: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 10%);
+    color: rgb(118, 112, 112);
+    text-decoration: none;
+    font-family: "Inter";
+    font-size: 15px;
+    font-weight: 300;
+    transition: background-color 0.4s,
+                color 0.4s,
+                font-weight 0.2s;
+}
+.github_button:hover{
+    background-color: rgb(8, 65, 130);
+    color:rgb(0, 0, 0);
+    font-weight: 600;
+}
